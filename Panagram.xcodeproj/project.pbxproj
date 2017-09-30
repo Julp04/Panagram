@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		143B411F1F7DD7DE004CA366 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143B411E1F7DD7DE004CA366 /* main.swift */; };
+		143B41261F7DD81C004CA366 /* ConsoleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143B41251F7DD81C004CA366 /* ConsoleIO.swift */; };
+		143B41281F7DD8A4004CA366 /* Panagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143B41271F7DD8A4004CA366 /* Panagram.swift */; };
+		1494041E1F7FFB1F005628A2 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1494041D1F7FFB1F005628A2 /* StringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		143B411B1F7DD7DE004CA366 /* Panagram */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Panagram; sourceTree = BUILT_PRODUCTS_DIR; };
 		143B411E1F7DD7DE004CA366 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		143B41251F7DD81C004CA366 /* ConsoleIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleIO.swift; sourceTree = "<group>"; };
+		143B41271F7DD8A4004CA366 /* Panagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Panagram.swift; sourceTree = "<group>"; };
+		1494041D1F7FFB1F005628A2 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,8 @@
 		143B41121F7DD7DE004CA366 = {
 			isa = PBXGroup;
 			children = (
+				143B41251F7DD81C004CA366 /* ConsoleIO.swift */,
+				143B41271F7DD8A4004CA366 /* Panagram.swift */,
 				143B411D1F7DD7DE004CA366 /* Panagram */,
 				143B411C1F7DD7DE004CA366 /* Products */,
 			);
@@ -58,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				143B411E1F7DD7DE004CA366 /* main.swift */,
+				1494041D1F7FFB1F005628A2 /* StringExtension.swift */,
 			);
 			path = Panagram;
 			sourceTree = "<group>";
@@ -121,7 +130,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1494041E1F7FFB1F005628A2 /* StringExtension.swift in Sources */,
 				143B411F1F7DD7DE004CA366 /* main.swift in Sources */,
+				143B41261F7DD81C004CA366 /* ConsoleIO.swift in Sources */,
+				143B41281F7DD8A4004CA366 /* Panagram.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +267,7 @@
 				143B41241F7DD7DE004CA366 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
